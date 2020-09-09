@@ -6,4 +6,9 @@ package com.offcn.controller;
  * @Description:
  */
 public class TestController {
+
+    public static void main(String[] args) {
+
+    }
+
 }
