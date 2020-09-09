@@ -10,6 +10,10 @@ public class TestController {
     public static void main(String[] args) {
 
         System.out.print("fyh");
+
+        if (true){
+            System.out.println("加油！");
+        }
     }
 
 }
