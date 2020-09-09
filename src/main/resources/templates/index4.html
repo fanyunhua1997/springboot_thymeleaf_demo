@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index4</title>
+    <link th:src="@{/js/testService.js}">
+    <link th:href="@{/css/pages-cart.css}">
+</head>
+<body>
+<h1 th:if="${flag=='yes'}">中公教育</h1><br>
+<h1 th:unless="${flag=='yes'}">优就业</h1><br>
+<div th:switch="${menu}">
+    <span th:case="admin">user is admin</span>
+    <span th:case="${manager}">user is manager</span>
+</div>
+<br>
+
+</body>
+</html>
